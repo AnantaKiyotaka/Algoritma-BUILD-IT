@@ -3,21 +3,28 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() {
+int main()
+{
     char A[100], B[100];
 
     scanf("%s", A);
     scanf("%s", B);
 
-    if (strlen(A) != strlen(B)) {
+    if (strlen(A) != strlen(B))
+    {
         printf("BERBEDA\n");
-    } else {
-        if (strcmp(A, B) == 0) {
+    }
+    else
+    {
+        if (strcmp(A, B) == 0)
+        {
             printf("IDENTIK\n");
-        } else {
+        }
+        else
+        {
             printf("MIRIP\n");
         }
     }
 
-    return 0;h
+    return 0;
 }
